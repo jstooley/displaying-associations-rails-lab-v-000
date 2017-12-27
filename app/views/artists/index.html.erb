@@ -1,6 +1,6 @@
 
-<ul>
+
   <% @artists.all do |artist| %>
     <h1><%= link_to(artist.name, artist_path(artist)) %></h1>
   <% end %>
-</ul>
+
