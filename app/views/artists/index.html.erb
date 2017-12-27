@@ -1,6 +1,6 @@
 <% @artist.all do |artist|%>
 <%= artist.name %>
-<p> Song Title: </p>
+<p> Songs: </p>
   <% artist.songs.each do |song|%>
     <p><%= song.title %></p>
   <% end %>
