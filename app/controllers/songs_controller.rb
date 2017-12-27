@@ -4,6 +4,7 @@ class SongsController < ApplicationController
   end
 
   def show
+    @post = Post.find(id: params[:id])
   end
 
   def new
