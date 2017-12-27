@@ -1,6 +1,6 @@
 class SongsController < ApplicationController
   def index
-    @posts.all
+    @posts = Post.all
   end
 
   def show
